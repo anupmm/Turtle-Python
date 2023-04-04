@@ -1,10 +1,10 @@
 import turtle
 
-bob = turtle.Turtle()
-bob.getscreen().bgcolor("#994444")
-bob.penup()
-bob.goto((-200,100))
-bob.pendown()
+putani = turtle.Turtle()
+putani.getscreen().bgcolor("#994444")
+putani.penup()
+putani.goto((-200,100))
+putani.pendown()
 
 def star(turtle, size):
 	if size <= 10:
@@ -18,7 +18,7 @@ def star(turtle, size):
 			turtle.left(216)
 		turtle.end_fill()
 
-star(bob, 360)
+star(putani, 360)
 
 turtle.done()
 
