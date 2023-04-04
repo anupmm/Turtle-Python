@@ -1,4 +1,4 @@
-#circle without using radius or center or circumference
+#s shape without using radius or center or circumference
 import turtle
 
 # create a turtle object
