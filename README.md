@@ -1,3 +1,3 @@
 # Python Turtle Graphics
 
-Hi guys this repo contains all of the source code for my video overview on the python turtle graphics library. Each python file contains one of the examples I went over in the video
+Hi guys this repo aims to create a text based python tool to draw simple geometric shapes using basic commands in Python Turtle.
