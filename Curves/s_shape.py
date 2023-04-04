@@ -10,8 +10,6 @@ t.pencolor("black")
 
 iterations = 8
 steps = 25
-forwards_steps = 30
-left_steps = 20
 
 # draw an approximation of a circle using 36 line segments
 for i in range(iterations):

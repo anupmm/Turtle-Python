@@ -8,10 +8,13 @@ t = turtle.Turtle()
 t.speed(0)
 t.pencolor("black")
 
+iterations = 36
+steps = 10
+
 # draw an approximation of a circle using 36 line segments
-for i in range(36):
-    t.forward(10)
-    t.left(10)
+for i in range(iterations):
+    t.forward(steps)
+    t.left(steps)
 
 # hide the turtle cursor
 t.hideturtle()
