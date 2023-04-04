@@ -1,11 +1,11 @@
 import turtle
 
-keith = turtle.Turtle()
+putani = turtle.Turtle()
 
-keith.speed(1)
+putani.speed(1)
 
-keith.forward(100)
-keith.left(45)
-keith.forward(100)
+putani.forward(100)
+putani.left(45)
+putani.forward(100)
 
 turtle.done()

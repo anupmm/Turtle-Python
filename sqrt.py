@@ -2,12 +2,12 @@ import turtle
 import math
 import random
 
-bob = turtle.Turtle()
+putani = turtle.Turtle()
 turtle.colormode(255)
-bob.speed(10)
+putani.speed(10)
 
 for i in range(2000):
-	bob.forward(math.sqrt(i))
-	bob.left(i%180)
+	putani.forward(math.sqrt(i))
+	putani.left(i%180)
 
 turtle.done()
